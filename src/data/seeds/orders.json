@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ORD-001",
+    "customerId": "u4",
+    "customerName": "Sipho Dlamini",
+    "customerEmail": "sipho@smokeworld.co.za",
+    "date": "2024-12-20",
+    "status": "delivered",
+    "isBulkOrder": true,
+    "items": [
+      { "productId": "1", "productName": "Classic Pipe Tobacco Blend", "sku": "STS-001", "qty": 20, "unitPrice": 240.00, "lineTotal": 4800.00 },
+      { "productId": "5", "productName": "Coconut Hookah Charcoal — 1kg Box", "sku": "STS-005", "qty": 48, "unitPrice": 62.00, "lineTotal": 2976.00 }
+    ],
+    "subtotal": 7776.00,
+    "vat": 1166.40,
+    "total": 8942.40,
+    "bulkSavings": 1044.00,
+    "deliveryAddress": "15 Commerce Street, Johannesburg, Gauteng, 2001",
+    "estimatedDelivery": "2024-12-23"
+  },
+  {
+    "id": "ORD-002",
+    "customerId": "u2",
+    "customerName": "Thabo Nkosi",
+    "customerEmail": "thabo@example.co.za",
+    "date": "2024-12-19",
+    "status": "shipped",
+    "isBulkOrder": false,
+    "items": [
+      { "productId": "7", "productName": "Electronic Cigarette — Pod Kit Starter", "sku": "STS-007", "qty": 1, "unitPrice": 340.00, "lineTotal": 340.00 },
+      { "productId": "10", "productName": "E-Liquid — Mango Tango 50ml", "sku": "STS-010", "qty": 3, "unitPrice": 120.00, "lineTotal": 360.00 }
+    ],
+    "subtotal": 700.00,
+    "vat": 105.00,
+    "total": 805.00,
+    "bulkSavings": 0,
+    "deliveryAddress": "42 Bree Street, Cape Town, Western Cape, 8001",
+    "estimatedDelivery": "2024-12-22"
+  },
+  {
+    "id": "ORD-003",
+    "customerId": "u4",
+    "customerName": "Sipho Dlamini",
+    "customerEmail": "sipho@smokeworld.co.za",
+    "date": "2024-12-18",
+    "status": "processing",
+    "isBulkOrder": true,
+    "items": [
+      { "productId": "2", "productName": "Hookah Shisha — Watermelon Mint", "sku": "STS-002", "qty": 50, "unitPrice": 115.00, "lineTotal": 5750.00 },
+      { "productId": "11", "productName": "Hookah Shisha — Double Apple", "sku": "STS-011", "qty": 50, "unitPrice": 105.00, "lineTotal": 5250.00 }
+    ],
+    "subtotal": 11000.00,
+    "vat": 1650.00,
+    "total": 12650.00,
+    "bulkSavings": 2500.00,
+    "deliveryAddress": "15 Commerce Street, Johannesburg, Gauteng, 2001",
+    "estimatedDelivery": "2024-12-24"
+  },
+  {
+    "id": "ORD-004",
+    "customerId": "u3",
+    "customerName": "Sarah van der Berg",
+    "customerEmail": "sarah@example.co.za",
+    "date": "2024-12-17",
+    "status": "pending",
+    "isBulkOrder": false,
+    "items": [
+      { "productId": "3", "productName": "Premium Cigar — Robusto Series", "sku": "STS-003", "qty": 2, "unitPrice": 420.00, "lineTotal": 840.00 },
+      { "productId": "12", "productName": "Lighter — Butane Torch Jet", "sku": "STS-012", "qty": 1, "unitPrice": 145.00, "lineTotal": 145.00 }
+    ],
+    "subtotal": 985.00,
+    "vat": 147.75,
+    "total": 1132.75,
+    "bulkSavings": 0,
+    "deliveryAddress": "8 Waterfront Drive, Durban, KwaZulu-Natal, 4001",
+    "estimatedDelivery": "2024-12-23"
+  },
+  {
+    "id": "ORD-005",
+    "customerId": "u4",
+    "customerName": "Sipho Dlamini",
+    "customerEmail": "sipho@smokeworld.co.za",
+    "date": "2024-12-15",
+    "status": "delivered",
+    "isBulkOrder": true,
+    "items": [
+      { "productId": "6", "productName": "Rolling Papers — King Size Slim", "sku": "STS-006", "qty": 100, "unitPrice": 16.50, "lineTotal": 1650.00 },
+      { "productId": "8", "productName": "Nicotine Pouches — Cool Mint 8mg", "sku": "STS-008", "qty": 48, "unitPrice": 59.00, "lineTotal": 2832.00 }
+    ],
+    "subtotal": 4482.00,
+    "vat": 672.30,
+    "total": 5154.30,
+    "bulkSavings": 988.00,
+    "deliveryAddress": "15 Commerce Street, Johannesburg, Gauteng, 2001",
+    "estimatedDelivery": "2024-12-18"
+  },
+  {
+    "id": "ORD-006",
+    "customerId": "u2",
+    "customerName": "Thabo Nkosi",
+    "customerEmail": "thabo@example.co.za",
+    "date": "2024-12-14",
+    "status": "cancelled",
+    "isBulkOrder": false,
+    "items": [
+      { "productId": "4", "productName": "Crystal Hookah Set — Luxury Edition", "sku": "STS-004", "qty": 1, "unitPrice": 1850.00, "lineTotal": 1850.00 }
+    ],
+    "subtotal": 1850.00,
+    "vat": 277.50,
+    "total": 2127.50,
+    "bulkSavings": 0,
+    "deliveryAddress": "42 Bree Street, Cape Town, Western Cape, 8001",
+    "estimatedDelivery": "2024-12-20"
+  },
+  {
+    "id": "ORD-007",
+    "customerId": "u4",
+    "customerName": "Sipho Dlamini",
+    "customerEmail": "sipho@smokeworld.co.za",
+    "date": "2024-12-12",
+    "status": "delivered",
+    "isBulkOrder": true,
+    "items": [
+      { "productId": "9", "productName": "Pipe Cleaning Kit — Deluxe Set", "sku": "STS-009", "qty": 30, "unitPrice": 135.00, "lineTotal": 4050.00 }
+    ],
+    "subtotal": 4050.00,
+    "vat": 607.50,
+    "total": 4657.50,
+    "bulkSavings": 1800.00,
+    "deliveryAddress": "15 Commerce Street, Johannesburg, Gauteng, 2001",
+    "estimatedDelivery": "2024-12-16"
+  },
+  {
+    "id": "ORD-008",
+    "customerId": "u3",
+    "customerName": "Sarah van der Berg",
+    "customerEmail": "sarah@example.co.za",
+    "date": "2024-12-10",
+    "status": "delivered",
+    "isBulkOrder": false,
+    "items": [
+      { "productId": "1", "productName": "Classic Pipe Tobacco Blend", "sku": "STS-001", "qty": 2, "unitPrice": 285.00, "lineTotal": 570.00 },
+      { "productId": "6", "productName": "Rolling Papers — King Size Slim", "sku": "STS-006", "qty": 5, "unitPrice": 28.00, "lineTotal": 140.00 }
+    ],
+    "subtotal": 710.00,
+    "vat": 106.50,
+    "total": 816.50,
+    "bulkSavings": 0,
+    "deliveryAddress": "8 Waterfront Drive, Durban, KwaZulu-Natal, 4001",
+    "estimatedDelivery": "2024-12-14"
+  }
+]

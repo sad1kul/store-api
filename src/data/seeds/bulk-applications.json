@@ -1,0 +1,57 @@
+[
+  {
+    "id": "app-001",
+    "businessName": "Flame & Smoke Retailers",
+    "ownerName": "Kwame Asante",
+    "email": "kwame@flamesmoke.co.za",
+    "phone": "083 456 7890",
+    "businessRegistration": "2021/345678/07",
+    "businessType": "Retailer",
+    "monthlyOrderValue": "R 20,000 – R 50,000",
+    "status": "pending",
+    "appliedDate": "2024-12-18",
+    "notes": "Expanding into tobacco retail. Currently running 3 stores in Gauteng."
+  },
+  {
+    "id": "app-002",
+    "businessName": "Sunset Spaza & General",
+    "ownerName": "Lindiwe Mokoena",
+    "email": "lindiwe@sunsetspaza.co.za",
+    "phone": "072 123 4567",
+    "businessRegistration": "",
+    "businessType": "Spaza Shop",
+    "monthlyOrderValue": "R 5,000 – R 10,000",
+    "status": "pending",
+    "appliedDate": "2024-12-15",
+    "notes": "Local spaza shop serving a busy township area. Looking for reliable tobacco supplier."
+  },
+  {
+    "id": "app-003",
+    "businessName": "Smoke World Distributors",
+    "ownerName": "Sipho Dlamini",
+    "email": "sipho@smokeworld.co.za",
+    "phone": "011 234 5678",
+    "businessRegistration": "2019/123456/07",
+    "businessType": "Reseller",
+    "monthlyOrderValue": "R 100,000+",
+    "status": "approved",
+    "appliedDate": "2023-10-28",
+    "approvedDate": "2023-11-02",
+    "notes": "Established distributor with 5 years in the industry. Supplies to 40+ retailers across Gauteng and Limpopo."
+  },
+  {
+    "id": "app-004",
+    "businessName": "Dodgy Smokes Inc.",
+    "ownerName": "John Smith",
+    "email": "john@dodgysmokes.co.za",
+    "phone": "060 000 0000",
+    "businessRegistration": "FAKE-001",
+    "businessType": "Other",
+    "monthlyOrderValue": "R 50,000 – R 100,000",
+    "status": "rejected",
+    "appliedDate": "2024-11-10",
+    "rejectedDate": "2024-11-14",
+    "rejectionReason": "Could not verify business registration. Application contained inconsistent information.",
+    "notes": "Unable to verify details provided."
+  }
+]

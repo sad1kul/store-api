@@ -1,0 +1,64 @@
+[
+  {
+    "id": "u1",
+    "name": "Admin User",
+    "email": "admin@smoketimestore.co.za",
+    "password": "$2b$12$KJYcr1JGzFXuZcqVnL6FreEttdCo2I2YvYxlYiqfHVfEVYuxlDokS",
+    "role": "admin",
+    "avatar": "https://placehold.co/100x100/4F46E5/FFFFFF?text=AU",
+    "joinedDate": "2023-01-15",
+    "status": "active"
+  },
+  {
+    "id": "u2",
+    "name": "Thabo Nkosi",
+    "email": "thabo@example.co.za",
+    "password": "$2b$12$KJYcr1JGzFXuZcqVnL6FreEttdCo2I2YvYxlYiqfHVfEVYuxlDokS",
+    "role": "retail",
+    "avatar": "https://placehold.co/100x100/10B981/FFFFFF?text=TN",
+    "joinedDate": "2024-03-10",
+    "status": "active"
+  },
+  {
+    "id": "u3",
+    "name": "Sarah van der Berg",
+    "email": "sarah@example.co.za",
+    "password": "$2b$12$KJYcr1JGzFXuZcqVnL6FreEttdCo2I2YvYxlYiqfHVfEVYuxlDokS",
+    "role": "retail",
+    "avatar": "https://placehold.co/100x100/F59E0B/FFFFFF?text=SV",
+    "joinedDate": "2024-06-22",
+    "status": "active"
+  },
+  {
+    "id": "u4",
+    "name": "Sipho Dlamini",
+    "email": "sipho@smokeworld.co.za",
+    "password": "$2b$12$KJYcr1JGzFXuZcqVnL6FreEttdCo2I2YvYxlYiqfHVfEVYuxlDokS",
+    "role": "bulk_buyer",
+    "bulkStatus": "approved",
+    "businessName": "Smoke World Distributors",
+    "businessType": "Reseller",
+    "avatar": "https://placehold.co/100x100/7C3AED/FFFFFF?text=SD",
+    "joinedDate": "2023-11-05",
+    "status": "active",
+    "totalOrders": 47,
+    "totalSpent": 186450,
+    "bulkSavings": 32780
+  },
+  {
+    "id": "u5",
+    "name": "Fatima Hassan",
+    "email": "fatima@cornerstore.co.za",
+    "password": "$2b$12$KJYcr1JGzFXuZcqVnL6FreEttdCo2I2YvYxlYiqfHVfEVYuxlDokS",
+    "role": "bulk_buyer",
+    "bulkStatus": "pending",
+    "businessName": "Corner Store Supplies",
+    "businessType": "Spaza Shop",
+    "avatar": "https://placehold.co/100x100/F43F5E/FFFFFF?text=FH",
+    "joinedDate": "2024-09-18",
+    "status": "active",
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "bulkSavings": 0
+  }
+]

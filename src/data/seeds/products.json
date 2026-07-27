@@ -1,0 +1,322 @@
+[
+  {
+    "id": "1",
+    "name": "Classic Pipe Tobacco Blend",
+    "slug": "classic-pipe-tobacco-blend",
+    "sku": "STS-001",
+    "category": "Pipe Tobacco",
+    "description": "A rich, smooth blend of premium Virginia and Burley tobaccos with subtle vanilla undertones. Perfect for the discerning pipe smoker who appreciates a mild, aromatic experience. This classic blend has been crafted using traditional methods to ensure consistency and quality in every tin.",
+    "retailPrice": 285.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 9, "price": 285.00 },
+      { "minQty": 10, "maxQty": 49, "price": 240.00 },
+      { "minQty": 50, "maxQty": null, "price": 195.00 }
+    ],
+    "stock": 142,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/4F46E5/FFFFFF?text=Pipe+Tobacco",
+      "https://placehold.co/600x600/6366F1/FFFFFF?text=Blend+Detail",
+      "https://placehold.co/600x600/818CF8/FFFFFF?text=Tin+View"
+    ],
+    "featured": true,
+    "tags": ["pipe", "tobacco", "vanilla", "mild"],
+    "reviews": [
+      { "id": "r1", "author": "James M.", "rating": 5, "comment": "Excellent blend, very smooth and aromatic.", "date": "2024-11-15" },
+      { "id": "r2", "author": "Sarah K.", "rating": 4, "comment": "Great quality, burns evenly. Will buy again.", "date": "2024-10-22" },
+      { "id": "r3", "author": "Peter D.", "rating": 5, "comment": "My go-to blend for evening sessions.", "date": "2024-09-30" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Hookah Shisha — Watermelon Mint",
+    "slug": "hookah-shisha-watermelon-mint",
+    "sku": "STS-002",
+    "category": "Hookah & Shisha",
+    "description": "Refreshing watermelon and cool mint shisha blend, ideal for social hookah sessions. Made with premium molasses and natural fruit flavouring for a long-lasting, flavourful smoke. Each 250g pack provides approximately 3–4 full hookah sessions.",
+    "retailPrice": 165.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 9, "price": 165.00 },
+      { "minQty": 10, "maxQty": 49, "price": 140.00 },
+      { "minQty": 50, "maxQty": null, "price": 115.00 }
+    ],
+    "stock": 318,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/10B981/FFFFFF?text=Watermelon+Mint",
+      "https://placehold.co/600x600/34D399/FFFFFF?text=Shisha+Pack",
+      "https://placehold.co/600x600/6EE7B7/FFFFFF?text=Flavour+Detail"
+    ],
+    "featured": true,
+    "tags": ["hookah", "shisha", "watermelon", "mint", "flavoured"],
+    "reviews": [
+      { "id": "r4", "author": "Aisha N.", "rating": 5, "comment": "Best watermelon shisha I've tried! Very refreshing.", "date": "2024-12-01" },
+      { "id": "r5", "author": "Tariq B.", "rating": 4, "comment": "Great flavour, good cloud production.", "date": "2024-11-20" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Premium Cigar — Robusto Series",
+    "slug": "premium-cigar-robusto-series",
+    "sku": "STS-003",
+    "category": "Cigars",
+    "description": "Handcrafted Dominican Republic robusto cigars with a natural Connecticut wrapper. Medium-bodied with notes of cedar, cream, and subtle spice. Aged for a minimum of 2 years for optimal flavour development. Sold individually, box of 10 available.",
+    "retailPrice": 420.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 9, "price": 420.00 },
+      { "minQty": 10, "maxQty": 24, "price": 360.00 },
+      { "minQty": 25, "maxQty": null, "price": 310.00 }
+    ],
+    "stock": 67,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/92400E/FFFFFF?text=Robusto+Cigar",
+      "https://placehold.co/600x600/B45309/FFFFFF?text=Box+Detail",
+      "https://placehold.co/600x600/D97706/FFFFFF?text=Wrapper+View"
+    ],
+    "featured": true,
+    "tags": ["cigar", "robusto", "dominican", "premium", "handcrafted"],
+    "reviews": [
+      { "id": "r6", "author": "Marco S.", "rating": 5, "comment": "Exceptional construction and draw. One of the best I've had.", "date": "2024-11-10" },
+      { "id": "r7", "author": "David L.", "rating": 4, "comment": "Excellent cigar for the price point. Creamy and smooth.", "date": "2024-10-05" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Crystal Hookah Set — Luxury Edition",
+    "slug": "crystal-hookah-set-luxury",
+    "sku": "STS-004",
+    "category": "Hookah & Accessories",
+    "description": "Complete luxury hookah set featuring a hand-blown crystal vase, stainless steel stem, silicone hose with wooden handle, and clay bowl. Stands 65cm tall. Includes cleaning brushes and starter charcoal pack. Perfect as a statement piece or gift.",
+    "retailPrice": 1850.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 4, "price": 1850.00 },
+      { "minQty": 5, "maxQty": 14, "price": 1650.00 },
+      { "minQty": 15, "maxQty": null, "price": 1450.00 }
+    ],
+    "stock": 23,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/7C3AED/FFFFFF?text=Crystal+Hookah",
+      "https://placehold.co/600x600/8B5CF6/FFFFFF?text=Set+Detail",
+      "https://placehold.co/600x600/A78BFA/FFFFFF?text=Base+View"
+    ],
+    "featured": true,
+    "tags": ["hookah", "crystal", "luxury", "set", "gift"],
+    "reviews": [
+      { "id": "r8", "author": "Priya R.", "rating": 5, "comment": "Absolutely stunning piece. The crystal vase is gorgeous!", "date": "2024-12-10" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Coconut Hookah Charcoal — 1kg Box",
+    "slug": "coconut-hookah-charcoal-1kg",
+    "sku": "STS-005",
+    "category": "Hookah & Accessories",
+    "description": "Natural coconut shell hookah charcoal cubes. No lighter fluid, low ash, long burn time (60–90 min per cube). Odourless and tasteless for a clean hookah experience. 1kg box contains approximately 72 cubes (64mm x 25mm).",
+    "retailPrice": 95.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 11, "price": 95.00 },
+      { "minQty": 12, "maxQty": 47, "price": 79.00 },
+      { "minQty": 48, "maxQty": null, "price": 62.00 }
+    ],
+    "stock": 450,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/374151/FFFFFF?text=Coconut+Charcoal",
+      "https://placehold.co/600x600/4B5563/FFFFFF?text=Box+View",
+      "https://placehold.co/600x600/6B7280/FFFFFF?text=Cube+Detail"
+    ],
+    "featured": false,
+    "tags": ["charcoal", "coconut", "hookah", "natural", "bulk"],
+    "reviews": [
+      { "id": "r9", "author": "Sipho M.", "rating": 5, "comment": "Best charcoal on the market. Burns long and clean.", "date": "2024-11-25" },
+      { "id": "r10", "author": "Liz T.", "rating": 4, "comment": "Good quality, fast delivery. Will definitely reorder.", "date": "2024-11-02" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Rolling Papers — King Size Slim",
+    "slug": "rolling-papers-king-size-slim",
+    "sku": "STS-006",
+    "category": "Rolling Supplies",
+    "description": "Ultra-thin, unbleached natural rice rolling papers in king size slim format. 110mm x 44mm. Each booklet contains 33 leaves plus 33 filter tips. Made in Spain. Slow-burning with minimal taste interference. Vegan-friendly with natural gum Arabic.",
+    "retailPrice": 28.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 23, "price": 28.00 },
+      { "minQty": 24, "maxQty": 99, "price": 22.00 },
+      { "minQty": 100, "maxQty": null, "price": 16.50 }
+    ],
+    "stock": 820,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/D1FAE5/065F46?text=Rolling+Papers",
+      "https://placehold.co/600x600/A7F3D0/065F46?text=Booklet+Detail",
+      "https://placehold.co/600x600/6EE7B7/065F46?text=Leaf+View"
+    ],
+    "featured": false,
+    "tags": ["rolling papers", "king size", "slim", "natural", "rice"],
+    "reviews": [
+      { "id": "r11", "author": "Chris V.", "rating": 4, "comment": "Excellent papers, very thin and burn evenly.", "date": "2024-12-05" }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Electronic Cigarette — Pod Kit Starter",
+    "slug": "electronic-cigarette-pod-kit-starter",
+    "sku": "STS-007",
+    "category": "Vaping",
+    "description": "All-in-one pod system with 800mAh built-in battery and 2ml refillable pod. Draw-activated firing mechanism. USB-C charging (60 min full charge). Compatible with all salt-nic and freebase e-liquids. Available in Matte Black, Pearl White, and Midnight Blue.",
+    "retailPrice": 340.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 9, "price": 340.00 },
+      { "minQty": 10, "maxQty": 29, "price": 290.00 },
+      { "minQty": 30, "maxQty": null, "price": 245.00 }
+    ],
+    "stock": 89,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/1E293B/FFFFFF?text=Pod+Kit",
+      "https://placehold.co/600x600/334155/FFFFFF?text=Device+Detail",
+      "https://placehold.co/600x600/475569/FFFFFF?text=Pod+View"
+    ],
+    "featured": true,
+    "tags": ["vaping", "pod", "electronic cigarette", "starter kit"],
+    "reviews": [
+      { "id": "r12", "author": "Nomsa D.", "rating": 5, "comment": "Perfect for beginners. Easy to use and great flavour.", "date": "2024-11-30" },
+      { "id": "r13", "author": "Ryan P.", "rating": 4, "comment": "Compact and reliable. Battery life is impressive.", "date": "2024-10-18" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Nicotine Pouches — Cool Mint 8mg",
+    "slug": "nicotine-pouches-cool-mint-8mg",
+    "sku": "STS-008",
+    "category": "Nicotine Products",
+    "description": "Tobacco-free nicotine pouches with a refreshing cool mint flavour. 8mg nicotine content per pouch. Each can contains 20 pouches. Discreet, spit-free, and suitable for use anywhere. Slim fit under lip for comfortable wear up to 60 minutes.",
+    "retailPrice": 89.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 11, "price": 89.00 },
+      { "minQty": 12, "maxQty": 47, "price": 74.00 },
+      { "minQty": 48, "maxQty": null, "price": 59.00 }
+    ],
+    "stock": 275,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/0EA5E9/FFFFFF?text=Nicotine+Pouches",
+      "https://placehold.co/600x600/38BDF8/FFFFFF?text=Can+Detail",
+      "https://placehold.co/600x600/7DD3FC/FFFFFF?text=Pouch+View"
+    ],
+    "featured": true,
+    "tags": ["nicotine", "pouches", "tobacco-free", "mint", "smokeless"],
+    "reviews": [
+      { "id": "r14", "author": "Zanele K.", "rating": 5, "comment": "Love these! Very fresh and the 8mg is perfect for me.", "date": "2024-12-08" }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Pipe Cleaning Kit — Deluxe Set",
+    "slug": "pipe-cleaning-kit-deluxe",
+    "sku": "STS-009",
+    "category": "Pipe Tobacco",
+    "description": "Comprehensive 12-piece pipe cleaning and maintenance kit. Includes bristle and fluffy pipe cleaners (50 each), pipe tool (pick, tamper, scoop), alcohol pipe sweetener (50ml), and carrying pouch. Compatible with all pipe styles.",
+    "retailPrice": 195.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 9, "price": 195.00 },
+      { "minQty": 10, "maxQty": 29, "price": 165.00 },
+      { "minQty": 30, "maxQty": null, "price": 135.00 }
+    ],
+    "stock": 54,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/78350F/FFFFFF?text=Cleaning+Kit",
+      "https://placehold.co/600x600/92400E/FFFFFF?text=Tools+Detail",
+      "https://placehold.co/600x600/B45309/FFFFFF?text=Kit+Contents"
+    ],
+    "featured": false,
+    "tags": ["pipe", "cleaning", "maintenance", "accessories", "kit"],
+    "reviews": [
+      { "id": "r15", "author": "Alan F.", "rating": 5, "comment": "Everything you need to keep your pipes in top condition.", "date": "2024-10-14" }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "E-Liquid — Mango Tango 50ml",
+    "slug": "eliquid-mango-tango-50ml",
+    "sku": "STS-010",
+    "category": "Vaping",
+    "description": "Tropical mango e-liquid with a tangy citrus finish. 70VG/30PG ratio for great cloud production and smooth throat hit. Available in 0mg, 3mg, and 6mg nicotine strengths. Manufactured in a ISO-certified facility. Compatible with sub-ohm tanks and pod systems.",
+    "retailPrice": 120.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 11, "price": 120.00 },
+      { "minQty": 12, "maxQty": 47, "price": 99.00 },
+      { "minQty": 48, "maxQty": null, "price": 79.00 }
+    ],
+    "stock": 193,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/F59E0B/FFFFFF?text=Mango+E-Liquid",
+      "https://placehold.co/600x600/FBBF24/FFFFFF?text=Bottle+Detail",
+      "https://placehold.co/600x600/FCD34D/FFFFFF?text=Flavour+View"
+    ],
+    "featured": false,
+    "tags": ["e-liquid", "mango", "vaping", "50ml", "tropical"],
+    "reviews": [
+      { "id": "r16", "author": "Thabo J.", "rating": 5, "comment": "Best mango flavour on the market. Very authentic taste!", "date": "2024-11-28" },
+      { "id": "r17", "author": "Emma S.", "rating": 4, "comment": "Great flavour, good cloud production. Highly recommended.", "date": "2024-10-30" }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Hookah Shisha — Double Apple",
+    "slug": "hookah-shisha-double-apple",
+    "sku": "STS-011",
+    "category": "Hookah & Shisha",
+    "description": "Traditional double apple shisha blend — a timeless Middle Eastern favourite. Balanced blend of red and green apple with light anise undertones. 250g premium molasses-based tobacco. Long-lasting flavour with consistent smoke production. Best used with natural coconut charcoal.",
+    "retailPrice": 155.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 9, "price": 155.00 },
+      { "minQty": 10, "maxQty": 49, "price": 128.00 },
+      { "minQty": 50, "maxQty": null, "price": 105.00 }
+    ],
+    "stock": 228,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/DC2626/FFFFFF?text=Double+Apple",
+      "https://placehold.co/600x600/EF4444/FFFFFF?text=Shisha+Pack",
+      "https://placehold.co/600x600/F87171/FFFFFF?text=Flavour+Detail"
+    ],
+    "featured": false,
+    "tags": ["hookah", "shisha", "apple", "double apple", "traditional"],
+    "reviews": [
+      { "id": "r18", "author": "Kareem A.", "rating": 5, "comment": "Classic flavour, exactly as expected. Great quality.", "date": "2024-12-02" }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Lighter — Butane Torch Jet",
+    "slug": "lighter-butane-torch-jet",
+    "sku": "STS-012",
+    "category": "Accessories",
+    "description": "Triple jet flame butane torch lighter. Windproof design, ideal for lighting pipes, cigars, and outdoor use. Refillable with standard butane gas. Includes built-in fuel window, child safety lock, and flame adjustment dial. Dimensions: 8.5cm x 2.5cm. Available in Silver and Gunmetal.",
+    "retailPrice": 145.00,
+    "bulkPricingTiers": [
+      { "minQty": 1, "maxQty": 11, "price": 145.00 },
+      { "minQty": 12, "maxQty": 47, "price": 120.00 },
+      { "minQty": 48, "maxQty": null, "price": 95.00 }
+    ],
+    "stock": 116,
+    "moq": 1,
+    "images": [
+      "https://placehold.co/600x600/64748B/FFFFFF?text=Torch+Lighter",
+      "https://placehold.co/600x600/94A3B8/FFFFFF?text=Lighter+Detail",
+      "https://placehold.co/600x600/CBD5E1/1E293B?text=Flame+View"
+    ],
+    "featured": false,
+    "tags": ["lighter", "torch", "butane", "windproof", "accessories"],
+    "reviews": [
+      { "id": "r19", "author": "Grant W.", "rating": 4, "comment": "Solid build quality, lights first time every time.", "date": "2024-11-12" },
+      { "id": "r20", "author": "Bianca O.", "rating": 5, "comment": "Perfect cigar lighter. The triple flame is very powerful.", "date": "2024-10-25" }
+    ]
+  }
+]
