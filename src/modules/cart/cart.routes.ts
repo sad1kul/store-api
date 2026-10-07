@@ -1,9 +1,9 @@
 import { Router } from "express";
 import { validateCart } from "./cart.controller";
-import { auth } from "../../middleware/auth";
+import { optionalAuth } from "../../middleware/auth";
 
 const router = Router();
 
-router.post("/validate", auth, validateCart);
+router.post("/validate", optionalAuth, validateCart);
 
 export default router;

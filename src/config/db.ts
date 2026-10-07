@@ -1,12 +1,24 @@
-// ─── DATABASE CONFIG — PLACEHOLDER ──────────────────────────────────────────
-// The API currently runs on seed JSON files. When you're ready to add a real
-// database, replace connectDB with your chosen adapter:
-//
-//   Option A — PostgreSQL via Prisma
-//   Option B — MongoDB via Mongoose
-//   Option C — MySQL via Prisma
-// ─────────────────────────────────────────────────────────────────────────────
+import mysql from "mysql2/promise";
+import { env } from "./env";
+
+export const db = mysql.createPool({
+  host: env.DB_HOST,
+  port: env.DB_PORT,
+  user: env.DB_USER,
+  password: env.DB_PASSWORD,
+  database: env.DB_NAME,
+  waitForConnections: true,
+  connectionLimit: env.DB_CONNECTION_LIMIT,
+  queueLimit: 0,
+  decimalNumbers: true,
+  ssl: env.DB_SSL === "true" ? {} : undefined,
+});
 
 export async function connectDB(): Promise<void> {
-  console.warn("[DB] No database configured. API is running in seed/JSON mode.");
+  const connection = await db.getConnection();
+  try {
+    await connection.ping();
+  } finally {
+    connection.release();
+  }
 }

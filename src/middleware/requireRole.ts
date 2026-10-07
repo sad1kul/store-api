@@ -8,7 +8,7 @@ export function requireRole(allowedRoles: Array<"retail" | "bulk_buyer" | "admin
       return;
     }
 
-    if (!allowedRoles.includes(req.user.role as any)) {
+    if (!allowedRoles.some((role) => role === req.user?.role)) {
       res.status(403).json({ success: false, message: "Forbidden: insufficient permissions" });
       return;
     }

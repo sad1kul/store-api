@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsc && mkdir -p dist/data/seeds && cp src/data/seeds/*.json dist/data/seeds/",
+    "build": "tsc",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "security:prune": "ts-node src/scripts/pruneSecurityData.ts",
+    "db:check": "ts-node src/scripts/checkDatabase.ts",
+    "db:create-admin": "ts-node src/scripts/createAdmin.ts",
+    "db:seed": "ts-node src/scripts/seedDatabase.ts",
+    "db:fresh": "ts-node src/scripts/resetFreshDatabase.ts",
     "start": "node dist/server.js"
   },
   "keywords": [],
@@ -22,6 +28,9 @@
     "helmet": "^8.3.0",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.11.0",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.4",
+    "sharp": "^0.35.4",
     "uuid": "^14.0.1",
     "zod": "^4.4.3"
   },
@@ -32,9 +41,10 @@
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.2.0",
     "@types/node": "^26.1.1",
     "@types/uuid": "^10.0.0",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^7.0.2"
+    "typescript": "^5.7.3"
   }
 }

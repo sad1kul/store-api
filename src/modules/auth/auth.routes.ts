@@ -1,16 +1,18 @@
 import { Router } from "express";
-import { login, register, refresh, logout, me } from "./auth.controller";
+import { login, register, refresh, logout, me, changePassword, listSessions, revokeSession, revokeOtherSessions } from "./auth.controller";
 import { auth } from "../../middleware/auth";
-import { authLimiter } from "../../middleware/rateLimiter";
+import { loginLimiter, registrationLimiter, passwordLimiter, sessionLimiter } from "../../middleware/rateLimiter";
 
 const router = Router();
 
-router.use(authLimiter);
-
-router.post("/login", login);
-router.post("/register", register);
-router.post("/refresh", refresh);
-router.post("/logout", logout);
+router.post("/login", loginLimiter, login);
+router.post("/register", registrationLimiter, register);
+router.post("/refresh", sessionLimiter, refresh);
+router.post("/logout", sessionLimiter, logout);
 router.get("/me", auth, me);
+router.patch("/password", auth, passwordLimiter, changePassword);
+router.get("/sessions", auth, listSessions);
+router.delete("/sessions/others", auth, revokeOtherSessions);
+router.delete("/sessions/:id", auth, revokeSession);
 
 export default router;

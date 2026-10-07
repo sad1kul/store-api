@@ -1,0 +1,62 @@
+CREATE TABLE IF NOT EXISTS users (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  name VARCHAR(150) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  password_hash VARCHAR(255) NOT NULL,
+  role ENUM('retail', 'bulk_buyer', 'admin') NOT NULL DEFAULT 'retail',
+  status ENUM('active', 'suspended') NOT NULL DEFAULT 'active',
+  bulk_status ENUM('pending', 'approved', 'rejected') NULL,
+  business_name VARCHAR(255) NULL,
+  business_type VARCHAR(100) NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_users_email (email),
+  INDEX idx_users_role (role),
+  INDEX idx_users_status (status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS products (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  slug VARCHAR(255) NOT NULL,
+  sku VARCHAR(100) NOT NULL,
+  category VARCHAR(150) NOT NULL,
+  description TEXT NOT NULL,
+  retail_price DECIMAL(12,2) UNSIGNED NOT NULL,
+  stock INT UNSIGNED NOT NULL DEFAULT 0,
+  minimum_order_quantity INT UNSIGNED NOT NULL DEFAULT 1,
+  featured TINYINT(1) NOT NULL DEFAULT 0,
+  status ENUM('draft', 'active', 'inactive') NOT NULL DEFAULT 'draft',
+  created_by INT UNSIGNED NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_products_slug (slug),
+  UNIQUE KEY uq_products_sku (sku),
+  INDEX idx_products_category (category),
+  INDEX idx_products_status (status),
+  INDEX idx_products_created_by (created_by),
+  CONSTRAINT fk_products_created_by FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS product_images (
+  id CHAR(36) NOT NULL,
+  product_id INT UNSIGNED NULL,
+  original_name VARCHAR(255) NULL,
+  mime_type VARCHAR(50) NOT NULL DEFAULT 'image/webp',
+  size_bytes INT UNSIGNED NOT NULL,
+  width INT UNSIGNED NOT NULL,
+  height INT UNSIGNED NOT NULL,
+  uploaded_by INT UNSIGNED NOT NULL,
+  alt_text VARCHAR(255) NULL,
+  sort_order SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  is_primary TINYINT(1) NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  INDEX idx_product_images_product (product_id),
+  INDEX idx_product_images_uploader (uploaded_by),
+  INDEX idx_product_images_sort (product_id, sort_order),
+  CONSTRAINT fk_product_images_product FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_product_images_uploader FOREIGN KEY (uploaded_by) REFERENCES users(id) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

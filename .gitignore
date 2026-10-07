@@ -1,5 +1,52 @@
+# Dependencies and generated output
 node_modules/
-dist/
-.env
-*.log
+/dist/
+/build/
+*.tsbuildinfo
+.cache/
+.turbo/
+
+# Local configuration and credentials; commit placeholder examples only
+.env*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
 cookies.txt
+
+# Logs and test artifacts
+*.log
+*.log.*
+/logs/
+/coverage/
+.nyc_output/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.auth/
+*.pid
+*.pid.lock
+
+# Runtime files and local backups; SQL migrations remain tracked
+/uploads/
+/backups/
+/dumps/
+/tmp/
+/temp/
+
+# OS and editor artifacts
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*.local.json
+*.swp
+*.swo
+*~
+
+# Local review reports
+/IMPLEMENTATION_SUMMARY.md
+/CODE_CLEANUP_REVIEW.md

@@ -5,6 +5,7 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
+  getAdminProducts,
 } from "./products.controller";
 import { auth } from "../../middleware/auth";
 import { requireRole } from "../../middleware/requireRole";
@@ -12,6 +13,7 @@ import { requireRole } from "../../middleware/requireRole";
 const router = Router();
 
 router.get("/", getProducts);
+router.get("/admin/all", auth, requireRole(["admin"]), getAdminProducts);
 router.get("/:slug", getProductBySlug);
 router.post("/", auth, requireRole(["admin"]), createProduct);
 router.patch("/:id", auth, requireRole(["admin"]), updateProduct);

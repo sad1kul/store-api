@@ -1,7 +1,7 @@
 import { Response, NextFunction } from "express";
 import { z } from "zod";
 import { AuthRequest } from "../../middleware/auth";
-import { calculateCart } from "./cart.service";
+import { calculateCartFromDB } from "./cart.service";
 
 export const validateCartSchema = z.object({
   items: z.array(
@@ -20,7 +20,7 @@ export async function validateCart(req: AuthRequest, res: Response, next: NextFu
       return;
     }
 
-    const cart = calculateCart(parse.data.items);
+    const cart = await calculateCartFromDB(parse.data.items, req.user ?? { role: "guest", bulkStatus: null });
     res.status(200).json({
       success: true,
       data: cart,
